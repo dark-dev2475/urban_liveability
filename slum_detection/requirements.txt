@@ -1,0 +1,9 @@
+sentinelsat
+geopandas
+Shapely
+rasterio
+numpy
+scikit-image
+rioxarray 
+scikit-image 
+scipy

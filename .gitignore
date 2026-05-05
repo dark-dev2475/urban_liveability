@@ -1,0 +1,87 @@
+# ============================================================================
+# OS & IDE Files
+# ============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================================================================
+# Python & Environments
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ============================================================================
+# Data & Large CSVs (Regenerate via pipeline)
+# ============================================================================
+*.csv
+!place_names_list.csv  # Keep the source list if needed
+master_training_data.csv
+fuzzy_scores.csv
+sentiment_features.csv
+context_features.csv
+cache/
+reviews/
+news_articles/
+slum_detection/data/
+
+# ============================================================================
+# ML Models & Checkpoints (Heavy files)
+# ============================================================================
+models/
+checkpoints/
+*.h5
+*.hdf5
+*.keras
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# ============================================================================
+# Generated Outputs & Reports
+# ============================================================================
+figures/
+slum_detection/notebook_images/
+report_latex/
+ppt_assets/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.zip
+*.docx
+!IIITA_Header.jpg  # Keep essential static assets
+!IIITA_Logo.jpg
+
+# ============================================================================
+# Scratch & Temporary Scripts (Developer clean-up)
+# ============================================================================
+extract_pdf.py
+extract_sem5_images.py
+optimize_images.py
+reorganize_latex.py
+build_latex_report.py
+extract_ipynb_images.py
+pdf_text.txt
+build_latex_report.py
+generate_report.py
+
+# ============================================================================
+# Logs
+# ============================================================================
+*.log
+logs/
